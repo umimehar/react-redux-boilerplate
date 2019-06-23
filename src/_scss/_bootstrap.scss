@@ -1,0 +1,16 @@
+@import "./var";
+
+/* import only the necessary Bootstrap files */
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+/* -------begin customization-------- */
+/* change the primary theme color to red */
+$theme-colors: (
+  primary: $clr-primary,
+  secondary: $clr-accent,
+  dark: $clr-dark
+);
+/* -------end customization-------- */
+
+@import "~bootstrap/scss/bootstrap.scss";

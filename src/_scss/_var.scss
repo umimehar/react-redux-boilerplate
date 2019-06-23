@@ -1,0 +1,31 @@
+
+$clr-primary: #235fa9;
+$clr-primary-darker: darken($clr-primary, 7);
+$clr-primary-darkest: darken($clr-primary, 15);
+$clr-primary-dirty: #4F6277;
+$clr-primary-intense: #41b1e1;
+$clr-primary-dull: #173d6c;
+$clr-primary-highlight: #77a9e6;
+$clr-primary-faded: #25538c;
+$clr-primary-text-dark:  lighten($clr-primary, 15);
+$clr-primary-text-light: #88b8ff;
+$clr-accent: #E84C9B;
+$clr-accent-faded: #d16899;
+$clr-background-grey: #f6f2ef;
+$clr-dark-grey-text: #555;
+
+$clr-default: #fff;
+
+$clr-mild: #FAFAFA;
+
+$clr-distinct: #CCC;
+$clr-distinct-slight-lighter: transformColor($clr-distinct, 0deg, 0%, 8.29412%);
+$clr-distinct-light: transformColor($clr-distinct, 0deg, 0%, 15.29412%);
+$clr-distinct-very-light: transformColor($clr-distinct, 0deg, 0%, 17.64706%);
+$clr-distinct-dark: transformColor($clr-distinct, 0deg, 0%, -6.66667%);
+$clr-distinct-very-dark: transformColor($clr-distinct, 0deg, 0%, -26.66667%);
+$clr-distinct-off: transformColor($clr-distinct-dark, 51deg, 34.48276%, 8.62745%);
+
+$clr-almost-black: #697078;
+$clr-dark: #000;
+$clr-dark-almost: transformColor($clr-dark, 0deg, 0%, 20%);
